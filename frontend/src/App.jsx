@@ -35,7 +35,6 @@ function App() {
 
       <h2>Carrinho</h2>
 
-    
       <h2>Adicionar Produto</h2>
 
 <input id="nome" placeholder="Nome do produto" />
@@ -45,7 +44,7 @@ function App() {
   const nome = document.getElementById("nome").value;
   const preco = document.getElementById("preco").value;
 
-  await fetch("http://localhost:3000/produtos", {
+  await fetch("loving-wisdom-production-f125.up.railway.app", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
