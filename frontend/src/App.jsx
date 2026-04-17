@@ -44,7 +44,7 @@ function App() {
   const nome = document.getElementById("nome").value;
   const preco = document.getElementById("preco").value;
 
-  await fetch("loving-wisdom-production-f125.up.railway.app", {
+  await fetch("fetch("https://loving-wisdom-production-157b.up.railway.app/produtos")", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
