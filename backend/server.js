@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // CONECTAR AO BANCO
-mongoose.connect("mongodb+srv://mineluarpratas925:obCTvjKGBJTifEcN@cluster0.83yf995.mongodb.net/loja");
+mongoose.connect("mongodb+srv://mineluarpratas925:obCTvjKGBJTifEcN@cluster0.83yf995.mongodb.net/loja?retryWrites=true&w=majority");
 
 // MODELO DO PRODUTO
 const Produto = mongoose.model("Produto", {
