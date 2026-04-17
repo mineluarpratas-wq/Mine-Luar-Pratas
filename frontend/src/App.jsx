@@ -6,7 +6,7 @@ function App() {
 
   // BUSCAR DO SERVIDOR
   useEffect(() => {
-    fetch("fetch("https://loving-wisdom-production-157b.up.railway.app/produtos")")
+    fetch("fetch("fetch("http://localhost:3000/produtos")")")
       .then(res => res.json())
       .then(data => setProdutos(data));
   }, []);
