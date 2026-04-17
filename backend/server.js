@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // CONECTAR AO BANCO
-mongoose.connect("mongodb://127.0.0.1:27017/loja");
+mongoose.connect("mongodb+srv://mineluarpratas925:obCTvjKGBJTifEcN@cluster0.83yf995.mongodb.net/loja");
 
 // MODELO DO PRODUTO
 const Produto = mongoose.model("Produto", {
